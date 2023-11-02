@@ -2,9 +2,9 @@ package com.proviodi.eachPagetest;
 
 import org.testng.annotations.Test;
 
-import com.providio.commonfunctionality.allAttributesinOneFile;
-import com.providio.commonfunctionality.selectingFilterFromPlp;
-import com.providio.pageObjects.productListingPage;
+import com.PageObjects.productListingPage;
+
+import com.commonfunctionality.selectingFilterFromPlp;
 import com.providio.testcases.baseClass;
 
 public class pdppage extends baseClass{

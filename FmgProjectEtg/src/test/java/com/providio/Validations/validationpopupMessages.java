@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 
-import com.providio.commonfunctionality.waitForTheElement;
+import com.commonfunctionality.waitForTheElement;
 import com.providio.testcases.baseClass;
 
 public class validationpopupMessages extends baseClass{

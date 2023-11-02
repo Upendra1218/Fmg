@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.providio.pageObjects.contactUsCustomerSupport;
+import com.PageObjects.contactUsCustomerSupport;
 
 public class tc__CustomerSupport extends baseClass{
 	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)

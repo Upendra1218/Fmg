@@ -3,9 +3,9 @@ package com.providio.testcases;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.providio.pageObjects.homePage;
-import com.providio.paymentProccess.CreditCardPaymentProcess;
-import com.providio.paymentProccess.MinicartViewCartProcess;
+import com.PageObjects.homePage;
+import com.PaymentProccess.CreditCardPaymentProcess;
+import com.PaymentProccess.MinicartViewCartProcess;
 
 public class tc__WishListtoAddtoCart extends baseClass {
 	

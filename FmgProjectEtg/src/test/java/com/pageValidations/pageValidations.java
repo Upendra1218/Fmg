@@ -2,9 +2,9 @@ package com.pageValidations;
 
 import org.testng.annotations.Test;
 
+import com.Launchingbrowser.launchBrowsering;
+import com.PageObjects.navigationProcess;
 import com.providio.Validations.preValidationCheck;
-import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.pageObjects.navigationProcess;
 import com.providio.testcases.baseClass;
 
 public class pageValidations extends baseClass{

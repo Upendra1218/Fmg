@@ -9,10 +9,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+import com.Launchingbrowser.launchBrowsering;
+import com.PaymentProccess.CheckOutProcessByPayPal;
 
-import com.providio.commonfunctionality.findAStore;
-import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.paymentProccess.CheckOutProcessByPayPal;
 import com.providio.testcases.baseClass;
 
 public class FooterSection extends baseClass{

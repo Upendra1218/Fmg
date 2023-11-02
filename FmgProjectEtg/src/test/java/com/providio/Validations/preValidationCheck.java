@@ -6,9 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.providio.pageObjects.homePage;
-import com.providio.pageObjects.productDescriptionPage;
-import com.providio.pageObjects.productListingPage;
+import com.PageObjects.homePage;
+import com.PageObjects.productDescriptionPage;
+import com.PageObjects.productListingPage;
 import com.providio.testcases.baseClass;
 
 public class preValidationCheck extends baseClass{

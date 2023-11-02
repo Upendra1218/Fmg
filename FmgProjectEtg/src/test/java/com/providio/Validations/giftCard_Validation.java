@@ -8,8 +8,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import com.PageObjects.GiftCertificate;
 import com.github.javafaker.Faker;
-import com.providio.pageObjects.GiftCertificate;
 import com.providio.testcases.baseClass;
 
 public class giftCard_Validation extends baseClass {

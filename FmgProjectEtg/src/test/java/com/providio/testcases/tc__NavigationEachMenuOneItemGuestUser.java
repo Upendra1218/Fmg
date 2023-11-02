@@ -8,8 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.pageObjects.CLPpage;
+import com.Launchingbrowser.launchBrowsering;
+import com.PageObjects.CLPpage;
 
 
 public class tc__NavigationEachMenuOneItemGuestUser extends baseClass{

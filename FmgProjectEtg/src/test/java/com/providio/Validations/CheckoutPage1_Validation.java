@@ -13,17 +13,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
+import com.Logout.tc__LogOut;
+import com.PageObjects.CreateAccount;
+import com.PageObjects.guestUserLoginPage;
+import com.PageObjects.loginPage;
+import com.PageObjects.miniCartPage;
+
+import com.PageObjects.productListingPage;
+import com.commonfunctionality.addtoCartValidation;
+
+
 import com.github.javafaker.Faker;
-import com.providio.commonfunctionality.addtoCartValidation;
-import com.providio.commonfunctionality.allAttributesinOneFile;
-import com.providio.commonfunctionality.navigationProccess;
-import com.providio.logout.tc__LogOut;
-import com.providio.pageObjects.CreateAccount;
-import com.providio.pageObjects.guestUserLoginPage;
-import com.providio.pageObjects.loginPage;
-import com.providio.pageObjects.miniCartPage;
-import com.providio.pageObjects.navigationPage;
-import com.providio.pageObjects.productListingPage;
 import com.providio.testcases.baseClass;
 import com.providio.testcases.tc__createAccount;
 
@@ -73,8 +73,8 @@ public class CheckoutPage1_Validation extends baseClass {
 
     //naviagated into random menu
    	
-	     navigationProccess nav = new navigationProccess();
-	     nav.commonNavigationProccess();
+//	     navigationProccess nav = new navigationProccess();
+//	     nav.commonNavigationProccess();
          logger.info("Entered into menu");
 
          //plp page    
@@ -85,7 +85,7 @@ public class CheckoutPage1_Validation extends baseClass {
  
          List<WebElement> pdpPage = driver.findElements(By.xpath("//button[contains(@class,'add-to-cart btn btn-primary')]"));
 		 if( pdpPage.size()>0) {
-			 allAttributesinOneFile.selectTheAttributesInPdp(driver);
+			 
 		 }
 		  
 		   //validating the product is add to the cart

@@ -7,7 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.providio.pageObjects.homePage;
+import com.PageObjects.homePage;
 import com.providio.testcases.baseClass;
 
 public class tc__HomePageValidation extends baseClass {

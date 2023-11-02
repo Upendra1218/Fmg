@@ -28,9 +28,9 @@ import org.testng.xml.XmlSuite;
 
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.ViewName;
-import com.providio.pageObjects.homePage;
 import com.providio.utilities.readConfig;
 import com.providio.utilities.reportToMail;
+import com.PageObjects.homePage;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;

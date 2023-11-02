@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.providio.testcases.tc__NavigationEachMenuOneItemGuestUser">
+      <class name="com.GuestUserWith_CreditCard.tc__GuestUserRandomProductFromPLP_InCc">
         <methods>
           <include name="setUpforReport"/>
-          <include name="setUp"/>
+          <include name="guestLogin"/>
           <include name="afterMethod"/>
-          <include name="Navigation"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.providio.testcases.tc__NavigationEachMenuOneItemGuestUser -->
+      </class> <!-- com.GuestUserWith_CreditCard.tc__GuestUserRandomProductFromPLP_InCc -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

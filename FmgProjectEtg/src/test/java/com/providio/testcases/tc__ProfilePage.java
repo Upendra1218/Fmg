@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.providio.pageObjects.profilePage;
+import com.PageObjects.profilePage;
 
 public class tc__ProfilePage extends baseClass{
 	SoftAssert softAssert = new SoftAssert();

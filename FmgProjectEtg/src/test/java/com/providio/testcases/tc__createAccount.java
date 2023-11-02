@@ -5,10 +5,10 @@
 		import org.openqa.selenium.WebElement;
 		import org.testng.annotations.Test;
 
+import com.PageObjects.CreateAccount;
+import com.PageObjects.guestUserLoginPage;
+import com.PageObjects.loginPage;
 import com.github.javafaker.Faker;
-import com.providio.pageObjects.CreateAccount;
-import com.providio.pageObjects.guestUserLoginPage;
-import com.providio.pageObjects.loginPage;
 		
 		public class tc__createAccount extends baseClass{
 			boolean openBrowserandClickSignInButtonset = false;

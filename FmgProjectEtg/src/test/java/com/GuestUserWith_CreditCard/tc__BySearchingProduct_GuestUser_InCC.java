@@ -2,14 +2,10 @@
 
 package com.GuestUserWith_CreditCard;
 
-import com.providio.Scenarios.SearchingProduct;
-import com.providio.Scenarios.SimpleProduct;
-import com.providio.commonfunctionality.addtoCartValidation;
-import com.providio.commonfunctionality.findAStore;
-import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.paymentProccess.MinicartViewCartProcess;
-import com.providio.paymentProccess.CreditCardPaymentProcess;
-import com.providio.paymentProccess.MiniCartCheckoutButton;
+import com.Launchingbrowser.launchBrowsering;
+import com.PaymentProccess.CreditCardPaymentProcess;
+import com.PaymentProccess.MiniCartCheckoutButton;
+import com.Scenarios.SearchingProduct;
 import com.providio.testcases.baseClass;
 
 import org.testng.annotations.Test;
@@ -26,17 +22,15 @@ public class tc__BySearchingProduct_GuestUser_InCC extends baseClass {
 		launchBrowsering lb = new launchBrowsering();
 		lb.chromeBrowser();
 			
-		// to pick the store
-	     findAStore  store = new findAStore();
-	     store.findStore();
+		
+	     
+	     
 		
         //searching a product 		
 		SearchingProduct sp1 = new SearchingProduct();
 		sp1.searchingProduct();
 
-		//simple product
-	    SimpleProduct sp = new SimpleProduct();
-	    sp.simpleProdcut();  
+
 		
 		
 	   //validating the product is add to the cart

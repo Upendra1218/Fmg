@@ -5,11 +5,11 @@ package com.GuestUserWith_Checkout_Paypal;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.providio.Scenarios.SearchingProduct;
-import com.providio.commonfunctionality.findAStore;
-import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.paymentProccess.MinicartViewCartProcess;
-import com.providio.paymentProccess.CheckOutProcessByPayPal;
+import com.Launchingbrowser.launchBrowsering;
+import com.PaymentProccess.CheckOutProcessByPayPal;
+import com.PaymentProccess.MinicartViewCartProcess;
+import com.Scenarios.SearchingProduct;
+
 import com.providio.testcases.baseClass;
 
 public class tc__BySearchingProduct_GuestUser_InCheckoutPaypal extends baseClass {
@@ -24,9 +24,9 @@ public class tc__BySearchingProduct_GuestUser_InCheckoutPaypal extends baseClass
 		launchBrowsering lb = new launchBrowsering();
 		lb.chromeBrowser();
 			
-		// to pick the store
-	    findAStore  store = new findAStore();
-	    store.findStore();
+		
+	    
+	    
 		
         //searching a product 		
 		SearchingProduct sp = new SearchingProduct();

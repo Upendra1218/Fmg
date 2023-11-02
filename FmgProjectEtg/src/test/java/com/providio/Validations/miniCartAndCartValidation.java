@@ -5,7 +5,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import com.providio.pageObjects.miniCartPage;
+import com.PageObjects.miniCartPage;
 import com.providio.testcases.baseClass;
 
 public class miniCartAndCartValidation extends baseClass {

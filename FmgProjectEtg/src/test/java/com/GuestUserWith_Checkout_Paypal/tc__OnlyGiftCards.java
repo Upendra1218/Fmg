@@ -2,11 +2,11 @@ package com.GuestUserWith_Checkout_Paypal;
 
 import org.testng.annotations.Test;
 
-import com.providio.Scenarios.giftCard;
-import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.pageObjects.GiftCertificate;
-import com.providio.paymentProccess.MinicartViewCartProcess;
-import com.providio.paymentProccess.CheckOutProcessByPayPal;
+import com.Launchingbrowser.launchBrowsering;
+import com.PageObjects.GiftCertificate;
+import com.PaymentProccess.CheckOutProcessByPayPal;
+import com.PaymentProccess.MinicartViewCartProcess;
+import com.Scenarios.giftCard;
 import com.providio.testcases.baseClass;
 
 public class tc__OnlyGiftCards extends baseClass{

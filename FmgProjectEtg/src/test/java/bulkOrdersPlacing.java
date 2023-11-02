@@ -1,10 +1,10 @@
 import org.testng.annotations.Test;
 
-import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.pageObjects.navigationProcess;
-import com.providio.pageObjects.productListingPage;
-import com.providio.paymentProccess.CreditCardPaymentProcess;
-import com.providio.paymentProccess.MinicartViewCartProcess;
+import com.Launchingbrowser.launchBrowsering;
+import com.PageObjects.navigationProcess;
+import com.PageObjects.productListingPage;
+import com.PaymentProccess.CreditCardPaymentProcess;
+import com.PaymentProccess.MinicartViewCartProcess;
 import com.providio.testcases.baseClass;
 
 public class bulkOrdersPlacing extends baseClass{

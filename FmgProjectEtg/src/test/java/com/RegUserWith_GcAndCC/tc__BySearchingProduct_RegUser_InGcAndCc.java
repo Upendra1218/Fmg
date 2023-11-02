@@ -2,10 +2,10 @@
 
 package com.RegUserWith_GcAndCC;
 
-import com.providio.Scenarios.SearchingProduct;
-import com.providio.commonfunctionality.Gc__CC_Paypal;
-import com.providio.commonfunctionality.findAStore;
-import com.providio.paymentProccess.MinicartViewCartProcess;
+import com.PaymentProccess.MinicartViewCartProcess;
+import com.Scenarios.SearchingProduct;
+import com.commonfunctionality.Gc__CC_Paypal;
+
 import com.providio.testcases.baseClass;
 
 import org.testng.Assert;
@@ -22,8 +22,8 @@ public class tc__BySearchingProduct_RegUser_InGcAndCc extends baseClass {
 		if(isLoggedIn) {
 			
 			//to pick the store
-			     findAStore  store = new findAStore();
-			     store.findStore();
+			     
+			     
 			     
 			//searching a product 
 				SearchingProduct sp = new SearchingProduct();

@@ -2,11 +2,11 @@ package com.GuestUserWith_ViewCart_Paypal;
 
 import org.testng.annotations.Test;
 
-import com.providio.commonfunctionality.findAStore;
-import com.providio.commonfunctionality.navigationProccess;
-import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.paymentProccess.MinicartViewCartProcess;
-import com.providio.paymentProccess.CheckOutProcessByPayPal;
+import com.Launchingbrowser.launchBrowsering;
+import com.PaymentProccess.CheckOutProcessByPayPal;
+import com.PaymentProccess.MinicartViewCartProcess;
+
+
 import com.providio.testcases.baseClass;
 
 public class tc__PaypalFromViewCartPage_GuestUser extends baseClass {
@@ -18,13 +18,13 @@ public class tc__PaypalFromViewCartPage_GuestUser extends baseClass {
 			lb.chromeBrowser();
 		
 			
-		// to pick the store
-		     findAStore  store = new findAStore();
-		     store.findStore();
+		
+		     
+		     
 	     
 		  // selects a random catgory and product add to cart
-	          navigationProccess navProccess = new navigationProccess();
-	          navProccess.commonNavigationProccess();
+	         
+	         
 	          
 	     
     	 //paypal checkout form view cart page

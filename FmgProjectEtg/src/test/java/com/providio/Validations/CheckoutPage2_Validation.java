@@ -47,7 +47,7 @@
 //      
 //      List<WebElement> pdpPage = driver.findElements(By.xpath("//button[contains(@class,'add-to-cart btn btn-primary')]"));
 //		 if( pdpPage.size()>0) {
-//			 allAttributesinOneFile.selectTheAttributesInPdp(driver);
+//			 
 //		 }
 //		  
 //		   //validating the product is add to the cart

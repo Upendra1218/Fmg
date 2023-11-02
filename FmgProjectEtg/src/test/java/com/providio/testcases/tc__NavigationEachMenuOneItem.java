@@ -13,10 +13,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.providio.commonfunctionality.attributesSelection;
-import com.providio.commonfunctionality.validatingInstock;
-import com.providio.paymentProccess.CreditCardPaymentProcess;
-import com.providio.paymentProccess.MinicartViewCartProcess;
+import com.PaymentProccess.CreditCardPaymentProcess;
+import com.PaymentProccess.MinicartViewCartProcess;
+import com.commonfunctionality.attributesSelection;
+import com.commonfunctionality.validatingInstock;
 
 
 public class tc__NavigationEachMenuOneItem extends baseClass{

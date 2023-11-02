@@ -10,13 +10,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.providio.commonfunctionality.addtoCartValidation;
-import com.providio.commonfunctionality.allAttributesinOneFile;
-import com.providio.commonfunctionality.navigationProccess;
-import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.pageObjects.miniCartPage;
-import com.providio.pageObjects.navigationPage;
-import com.providio.pageObjects.productListingPage;
+import com.Launchingbrowser.launchBrowsering;
+import com.PageObjects.miniCartPage;
+
+import com.PageObjects.productListingPage;
+import com.commonfunctionality.addtoCartValidation;
+
+
 import com.providio.testcases.baseClass;
 
 public class QuantityValidation extends baseClass {
@@ -30,8 +30,8 @@ public void commonScript() throws InterruptedException {
 			
         //naviagated into random menu
 			 //navigates to pdp page randomly
-		     navigationProccess nav = new navigationProccess();
-		     nav.commonNavigationProccess();
+//		     navigationProccess nav = new navigationProccess();
+//		     nav.commonNavigationProccess();
 			 logger.info("Entered into menu");
 		
 			//plp page	
@@ -41,7 +41,7 @@ public void commonScript() throws InterruptedException {
 	
 			 List<WebElement> pdpPage = driver.findElements(By.xpath("//button[contains(@class,'add-to-cart btn btn-primary')]"));
 			 if( pdpPage.size()>0) {
-				 allAttributesinOneFile.selectTheAttributesInPdp(driver);
+				 
 			 }
 			  
 			   //validating the product is add to the cart
